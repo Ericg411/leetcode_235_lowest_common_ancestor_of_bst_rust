@@ -2,7 +2,6 @@ use std::rc::Rc;
 use std::cell::RefCell;
 use std::cmp::Ordering::{Less, Greater};
 
-// TreeNode definition
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
     pub val: i32,
@@ -21,7 +20,6 @@ impl TreeNode {
     }
 }
 
-// Solution implementation
 pub struct Solution;
 
 impl Solution {
@@ -50,7 +48,6 @@ impl Solution {
     }
 }
 
-// Test module
 #[cfg(test)]
 mod tests {
     use super::*;
